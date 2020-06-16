@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+body {
+  margin: 0;
+  width; 100%;
+  background-color:green;
+}
+#header{
+  padding: 0px; margin 0px;
+  height: 75px;
+  width: 100%;
+  background-color: #000;
+  color: #9C27B0;
+  font-family: Roboto;
+  text-align: right;
+  position: fixed;
+  top: 0px; left:0px;
+  z-index:1;
+  
+}
+#logo{
+  z-index: 1000;
+  color: red;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  background-color: gold;
+  border-radius: 80px;
+  position:fixed;
+  top: 7px;
+  left: 7px;
+}
+
+#content{
+
+  padding-top: 75px;
+  height: 1000px;
+  
+}
+
+.first-row{
+  width:50%;
+  height:500%;
+  background-color: purple;
+  float: left;
+  margin: 10px;
+}
+.second-row{
+  width: 120px;
+  height: 150px;
+  background-color: orange;
+  float:top ;
+  margin: 10px;
+  }
+.column{
+  width:100px;
+  height:200px;
+  background-color:yellow;
+  float:top;
+  align:right;
+  margin:10px;
+}
+  
+ 
+
+
+
+
+#help-box{
+  height: 50px;
+  width:75px;
+  background-color: #000;
+  color: #8E24AA;
+  font-family:Roboto;
+  position:fixed;
+  bottom:5%;
+  right: 0px;
+}
+#link{
+  
+  height: 70px;
+  width: 90px;
+  background-color: pink;
+  
+  
+}
+.footerelijah {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  
+}
